@@ -1,5 +1,5 @@
 function Footer() {
-  return <div className='footer'>Developed by Vinicius Pietscher</div>
+  return <div className='footer'>Designed by Vinicius Pietscher</div>
 }
 
 export default Footer
