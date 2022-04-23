@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom"
+
 function Navbar() {
   return (
     <nav>
       <h2 className='nav--main'>
-        <a href='#'>Vinicius Pietscher</a>
+        <Link to='/'>Vinicius Pietscher</Link>
       </h2>
       <ul className='nav--list'>
         {/* <li className='nav--item'>
@@ -12,10 +14,10 @@ function Navbar() {
           <a href='#'>Projects</a>
         </li> */}
         <li className='nav--item'>
-          <a href='#'>Resume</a>
+          <Link to='resume'>Resume</Link>
         </li>
         <li className='nav--item'>
-          <a href='#'>Refcode classmates websites</a>
+          <Link to='websites'>Refcode classmates websites</Link>
         </li>
       </ul>
     </nav>
