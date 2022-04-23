@@ -53,6 +53,18 @@ section {
   margin: auto;
 }
 
+.resume {
+  min-height: 75vh;
+  width: 700px;
+  margin: auto;
+}
+
+.websites {
+  min-height: 75vh;
+  width: 700px;
+  margin: auto;
+}
+
 .main h1 {
   margin-top: 50px;
   color: #4b4b4b;
