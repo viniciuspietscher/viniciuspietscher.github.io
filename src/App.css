@@ -89,11 +89,11 @@ section {
 } */
 
 p {
-  margin-top: 70px;
   color: #5e5e5e;
 }
 
 .paragraph {
+  padding-top: 0;
   text-align: left;
 }
 
