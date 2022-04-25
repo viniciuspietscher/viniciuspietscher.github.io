@@ -17,7 +17,7 @@ function Navbar() {
           <Link to='resume'>Resume</Link>
         </li>
         <li className='nav--item'>
-          <Link to='websites'>Refcode classmates websites</Link>
+          <Link to='websites'>Refcode Classmates</Link>
         </li>
       </ul>
     </nav>

@@ -1,5 +1,44 @@
+import Github from "../icons/github-brands.svg"
+import Twitter from "../icons/twitter-brands.svg"
+import Mail from "../icons/envelope-solid.svg"
+
 function Footer() {
-  return <div className='footer'>Designed by Vinicius Pietscher</div>
+  return (
+    <div className='footer'>
+      <p>
+        Designed by <em>Vinicius Pietscher</em>
+      </p>
+      <ul>
+        <li>
+          <a
+            href='https://github.com/viniciuspietscher'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img src={Github} alt='' />
+          </a>
+        </li>
+        <li>
+          <a
+            href='https://twitter.com/vinipietscher'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img src={Twitter} alt='' />
+          </a>
+        </li>
+        <li>
+          <a
+            href='mailto:vinicius.pietscher@gmail.com'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img src={Mail} alt='' />
+          </a>
+        </li>
+      </ul>
+    </div>
+  )
 }
 
 export default Footer
