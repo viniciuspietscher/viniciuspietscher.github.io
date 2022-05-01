@@ -88,13 +88,13 @@ p {
   text-align: left;
 }
 
-.list {
-  padding-left: 0px;
-  margin-right: 8px;
+.list--websites p {
+  margin: 0 0 3px 0;
 }
 
-.list li {
-  list-style: none;
+.list--websites a, a:visited {
+  text-decoration: none;
+  color: #5e5e5e;
 }
 
 .footer {
