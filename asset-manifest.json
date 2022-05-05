@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.411fae0d.css",
-    "main.js": "/static/js/main.17642516.js",
+    "main.js": "/static/js/main.ba246fb1.js",
     "static/media/github-brands.svg": "/static/media/github-brands.833b63e28cadf07403bc81451d30b858.svg",
     "static/media/twitter-brands.svg": "/static/media/twitter-brands.7b0966c673ac146ae16dfeaa6ecc2eb1.svg",
     "static/media/envelope-solid.svg": "/static/media/envelope-solid.dba533a0d3bd121023c13a25036858ed.svg",
     "index.html": "/index.html",
     "main.411fae0d.css.map": "/static/css/main.411fae0d.css.map",
-    "main.17642516.js.map": "/static/js/main.17642516.js.map"
+    "main.ba246fb1.js.map": "/static/js/main.ba246fb1.js.map"
   },
   "entrypoints": [
     "static/css/main.411fae0d.css",
-    "static/js/main.17642516.js"
+    "static/js/main.ba246fb1.js"
   ]
 }
