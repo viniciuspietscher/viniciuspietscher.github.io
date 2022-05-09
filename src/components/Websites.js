@@ -68,6 +68,11 @@ function Websites() {
             Veronica Johnson
           </a>
         </p>
+        <p>
+          <a href='https://yousefzeitone.com/' target='_blank' rel='noreferrer'>
+            Yousef Zeitone
+          </a>
+        </p>
       </section>
     </section>
   )
