@@ -1,6 +1,7 @@
 import Github from "../icons/github-brands.svg"
 import Twitter from "../icons/twitter-brands.svg"
 import Mail from "../icons/envelope-solid.svg"
+import Linkedin from "../icons/linkedin-brands.svg"
 
 function Footer() {
   return (
@@ -34,6 +35,15 @@ function Footer() {
             rel='noreferrer'
           >
             <img src={Mail} alt='' />
+          </a>
+        </li>
+        <li>
+          <a
+            href='https://www.linkedin.com/in/vinicius-pietscher/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img src={Linkedin} alt='' />
           </a>
         </li>
       </ul>

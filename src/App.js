@@ -9,12 +9,14 @@ import Websites from "./components/Websites"
 function App() {
   return (
     <div className='App'>
-      <Navbar />
-      <Routes>
-        <Route path='/' element={<About />} />
-        <Route path='/resume' element={<Resume />} />
-        <Route path='/websites' element={<Websites />} />
-      </Routes>
+      <div className='content-wrap'>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<About />} />
+          <Route path='/resume' element={<Resume />} />
+          <Route path='/websites' element={<Websites />} />
+        </Routes>
+      </div>
       <Footer />
     </div>
   )

@@ -1,3 +1,13 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  flex: 1;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -83,16 +93,12 @@ p {
   color: #5e5e5e;
 }
 
-.paragraph {
-  padding-top: 0;
-  text-align: left;
-}
 
 .list--websites p {
   margin: 0 0 3px 0;
 }
 
-.list--websites a, a:visited {
+a, a:visited {
   text-decoration: none;
   color: #5e5e5e;
 }
@@ -101,11 +107,11 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
   color: #5e5e5e;
-  min-height: 6vh;
+  height: 50px;
 }
 
 .footer ul {
@@ -124,4 +130,21 @@ p {
 
 a:hover {
   text-decoration: underline;
+}
+
+.about__photo {
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+  filter: opacity(90%);
+  filter: drop-shadow(8px 8px 10px rgb(74, 74, 74));
+}
+
+.resume__section {
+  color: #5e5e5e;
+  text-align: left;
+}
+
+.resume_h3 {
+  margin-top: 35px;
 }
