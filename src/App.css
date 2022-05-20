@@ -148,3 +148,21 @@ a:hover {
 .resume_h3 {
   margin-top: 35px;
 }
+
+@media screen and (max-width: 915px) {
+  .main--title {
+    font-size: 20px;
+  }
+  .nav--main {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .nav--list {
+    flex-direction: column;
+  }
+
+  /* .about img {
+    display: none;
+  } */
+}
