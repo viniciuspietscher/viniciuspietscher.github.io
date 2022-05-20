@@ -8,6 +8,8 @@
   flex: 1;
 }
 
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -149,20 +151,26 @@ a:hover {
   margin-top: 35px;
 }
 
-@media screen and (max-width: 915px) {
+@media screen and (max-width: 605px) {
   .main--title {
-    font-size: 20px;
+    font-size: 30px;
   }
   .nav--main {
-    font-size: 20px;
-    margin-left: 20px;
-  }
-
-  .nav--list {
-    flex-direction: column;
-  }
-
-  .about img {
     display: none;
+  }
+
+  .about {
+    max-width: 90%;
+    margin: auto;
+  }
+  
+  .resume {
+    max-width: 90%;
+    margin: auto;
+  }
+  
+  .websites {
+    max-width: 90%;
+    margin: auto;
   }
 }
