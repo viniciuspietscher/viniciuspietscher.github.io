@@ -159,6 +159,10 @@ a:hover {
     display: none;
   }
 
+  nav {
+    justify-content: center;
+  }
+
   .about {
     max-width: 90%;
     margin: auto;
