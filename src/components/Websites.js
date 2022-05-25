@@ -50,6 +50,11 @@ function Websites() {
           </a>
         </p>
         <p>
+          <a href='https://mohamadalo.com/' target='_blank' rel='noreferrer'>
+            Mohamad Alo
+          </a>
+        </p>
+        <p>
           <a
             href='https://mohammedahmeddev.com/'
             target='_blank'
