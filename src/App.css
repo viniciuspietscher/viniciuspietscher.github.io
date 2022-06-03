@@ -40,6 +40,10 @@ nav {
   color: #5e5e5e;
 }
 
+.nav--main-mobile {
+  display: none;
+}
+
 .nav--list {
   list-style: none;
   display: flex;
@@ -82,11 +86,11 @@ section {
   color: #4b4b4b;
 }
 
-.paragraph, .resume__section, .list--websites {
-  /* background-color: #ffffff;
+/* .paragraph, .resume__section, .list--websites {
+  background-color: #ffffff;
   border-radius: 10px;
-  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1); */
-}
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+} */
 
 
 
@@ -169,8 +173,19 @@ a:hover {
     display: none;
   }
 
-  nav {
-    justify-content: center;
+  .nav--main-mobile, .nav--main-mobile a {
+    display: block;
+    text-decoration: none;
+    padding-left: 16px;
+    color: #5e5e5e;
+  }
+
+  .paragraph {
+    padding: 0;
+  }
+
+  .resume__section {
+    padding: 0;
   }
 
   .about {

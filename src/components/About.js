@@ -1,14 +1,10 @@
-import photo from "../images/IMG_2411.jpg"
-
 function About() {
   return (
     <section className='about'>
       <section className='main'>
         <h1 className='main--title'>Vinicius Pietscher</h1>
         <p className='main--subtitle'>Software Engineer</p>
-        <img className='about__photo' src={photo} alt='Vini' />
       </section>
-      {/* <h2 className='about--title'>About me</h2> */}
       <section className='paragraph'>
         <p>Hi! I'm Vini, a Software Engineer from São Paulo, Brasil.</p>
         <p>
